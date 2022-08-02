@@ -22,7 +22,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - uses: browser-actions/setup-chrome@latest
+      - uses: browser-actions/setup-chrome@103.0.5060.134
       - run: chrome --version
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
